@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "af_tst_hugo_restapi": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7181",
+      "launchBrowser": false
+    }
+  }
+}
