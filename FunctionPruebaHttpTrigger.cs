@@ -22,7 +22,7 @@ namespace My.Function
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Welcome to Azure Functions! with a build of commit by git 2.0, a new content");
+            response.WriteString("Welcome to Azure Functions! with a build of commit by git 2.0, a news content");
 
             return response;
         }
